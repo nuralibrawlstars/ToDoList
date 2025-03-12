@@ -1,11 +1,11 @@
 import './Task.css'
 
 const Task = ({task, deleteTask}) => {
-    return (<div style={{display:"flex", gap: "20px"}}>
+    return (<div className="style">
 
     
         
-       <p>{task.text}</p> 
+       <p className='p'>{task.text}</p> 
        <button onClick={()=> deleteTask(task.id)}>
         <img className="image" src="basket.png" alt="basket icon"  />
        </button>

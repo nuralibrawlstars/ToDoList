@@ -1,4 +1,21 @@
 .image {
     width: 30px;
     height: 30px;
+    
 }
+
+.style {
+    width: 300px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+    padding: 10px 20px;
+    margin: 10px;
+    color: rgb(39, 39, 166);
+    display: flex;
+   justify-content: space-between;
+   background: white;
+    
+
+}
+
+

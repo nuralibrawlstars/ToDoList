@@ -1,0 +1,18 @@
+.in {
+    border: 1px solid rgb(48, 171, 237);
+    border-radius: 10px;
+    padding: 15px;
+    gap: 150px;
+    
+
+}
+.b {
+    background-color: aquamarine;
+    padding: 12px;
+    margin: 10px 10px;
+    color: blueviolet;
+}
+
+.b:hover {
+    box-shadow: 20px;
+}
